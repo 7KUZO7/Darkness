@@ -1,0 +1,590 @@
+2026-10-22 20:36:31,754 13356 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-10-22 20:36:31,755 13356 INFO ? odoo: Odoo version 19.0-20261018 
+2026-10-22 20:36:31,755 13356 INFO ? odoo: Using configuration file at d:\dz\erm crm\server\odoo.conf 
+2026-10-22 20:36:31,755 13356 INFO ? odoo: addons paths: _NamespacePath(['D:\\DZ\\ERM CRM\\server\\odoo\\addons', 'C:\\Users\\KuZo\\AppData\\Local\\OpenERP S.A.\\Odoo\\addons\\19.0', 'd:\\dz\\erm crm\\server\\odoo\\addons', 'd:\\dz\\erm crm\\server\\addons']) 
+2026-10-22 20:36:31,755 13356 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-22 20:36:35,546 13356 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-22 20:36:35,547 13356 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-22 20:36:35,551 13356 INFO ? odoo.service.server: A child process was found, pid is psutil.Process(pid=3132, name='conhost.exe', status='running', started='20:36:29'), process may hang 
+2026-10-22 20:36:36,835 20856 INFO ? odoo: Odoo version 19.0-20261018 
+2026-10-22 20:36:36,835 20856 INFO ? odoo: Using configuration file at d:\dz\erm crm\server\odoo.conf 
+2026-10-22 20:36:36,835 20856 INFO ? odoo: addons paths: _NamespacePath(['D:\\DZ\\ERM CRM\\server\\odoo\\addons', 'c:\\users\\kuzo\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'd:\\dz\\erm crm\\server\\odoo\\addons', 'd:\\dz\\erm crm\\server\\addons']) 
+2026-10-22 20:36:36,835 20856 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-22 20:36:37,199 20856 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-44D8AB1:8069 
+2026-10-22 20:36:41,271 20856 INFO ? odoo.sql_db: Connection to the database failed 
+2026-10-22 20:36:45,297 20856 INFO ? odoo.sql_db: Connection to the database failed 
+2026-10-22 20:40:01,281 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 20:40:01] "GET / HTTP/1.1" 303 - 1 0.005 0.083
+2026-10-22 20:40:01,389 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 20:40:01] "GET /odoo HTTP/1.1" 303 - 2 0.003 0.088
+2026-10-22 20:40:02,014 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 20:40:02] "GET /web/database/selector HTTP/1.1" 200 - 2 0.003 0.616
+2026-10-22 20:40:04,165 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 20:40:04] "GET /web/service-worker.js HTTP/1.1" 404 - 1 0.002 0.039
+2026-10-22 21:07:10,682 13288 INFO ? odoo: Odoo version 19.0-20261018 
+2026-10-22 21:07:10,683 13288 INFO ? odoo: Using configuration file at d:\dz\erm crm\server\odoo.conf 
+2026-10-22 21:07:10,683 13288 INFO ? odoo: addons paths: _NamespacePath(['D:\\DZ\\ERM CRM\\server\\odoo\\addons', 'D:\\DZ\\ERM CRM\\server\\odoo\\addons', 'c:\\users\\kuzo\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'd:\\dz\\erm crm\\server\\odoo\\addons', 'd:\\dz\\erm crm\\server\\addons']) 
+2026-10-22 21:07:10,683 13288 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-22 21:07:11,325 13288 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-44D8AB1:8069 
+2026-10-22 21:07:56,563 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:07:56] "GET / HTTP/1.1" 303 - 1 0.002 0.045
+2026-10-22 21:07:56,667 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:07:56] "GET /odoo HTTP/1.1" 303 - 2 0.004 0.087
+2026-10-22 21:07:57,304 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:07:57] "GET /web/database/selector HTTP/1.1" 200 - 2 0.003 0.629
+2026-10-22 21:08:20,662 20856 INFO None odoo.service.db: Create database `Darkness`. 
+2026-10-22 21:08:21,251 20856 INFO None odoo.modules.loading: Initializing database Darkness 
+2026-10-22 21:08:24,709 20856 INFO None odoo.modules.loading: loading 1 modules... 
+2026-10-22 21:08:24,709 20856 INFO None odoo.modules.loading: Loading module base (1/1) 
+2026-10-22 21:08:24,743 20856 INFO None odoo.registry: module base: creating or updating database tables 
+2026-10-22 21:08:28,017 20856 INFO None odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2026-10-22 21:08:28,017 20856 INFO None odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2026-10-22 21:08:28,017 20856 INFO None odoo.models: Prepare computation of ir.module.module.views_by_module 
+2026-10-22 21:08:29,318 20856 INFO None odoo.models: Prepare computation of res.partner.user_id 
+2026-10-22 21:08:29,318 20856 INFO None odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2026-10-22 21:08:29,319 20856 INFO None odoo.models: Prepare computation of res.partner.complete_name 
+2026-10-22 21:08:29,319 20856 INFO None odoo.models: Prepare computation of res.partner.lang 
+2026-10-22 21:08:29,319 20856 INFO None odoo.models: Prepare computation of res.partner.company_registry 
+2026-10-22 21:08:29,319 20856 INFO None odoo.models: Prepare computation of res.partner.commercial_company_name 
+2026-10-22 21:08:29,319 20856 INFO None odoo.models: Prepare computation of res.partner.properties 
+2026-10-22 21:08:29,319 20856 INFO None odoo.models: Prepare computation of res.partner.partner_share 
+2026-10-22 21:08:29,548 20856 INFO None odoo.models: Prepare computation of res.currency.decimal_places 
+2026-10-22 21:08:29,734 20856 INFO None odoo.models: Prepare computation of res.company.uses_default_logo 
+2026-10-22 21:08:29,734 20856 INFO None odoo.models: Prepare computation of res.company.logo_web 
+2026-10-22 21:08:29,752 20856 INFO None odoo.models: Computing parent_path for table res_company... 
+2026-10-22 21:08:30,206 20856 INFO None odoo.models: Prepare computation of res.users.signature 
+2026-10-22 21:08:30,206 20856 INFO None odoo.models: Prepare computation of res.users.share 
+2026-10-22 21:08:35,897 20856 INFO None odoo.modules.loading: loading base/data/res_bank.xml 
+2026-10-22 21:08:35,930 20856 INFO None odoo.modules.loading: loading base/data/res.lang.csv 
+2026-10-22 21:08:35,973 20856 INFO None odoo.modules.loading: loading base/data/res_lang_data.xml 
+2026-10-22 21:08:36,681 20856 INFO None odoo.modules.loading: loading base/data/res_partner_data.xml 
+2026-10-22 21:08:36,876 20856 INFO None odoo.modules.loading: loading base/data/res_currency_data.xml 
+2026-10-22 21:08:37,315 20856 INFO None odoo.modules.loading: loading base/data/res_company_data.xml 
+2026-10-22 21:08:37,323 20856 INFO None odoo.modules.loading: loading base/data/res_users_data.xml 
+2026-10-22 21:08:38,389 20856 INFO None odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2026-10-22 21:08:38,423 20856 INFO None odoo.modules.loading: loading base/data/res_country_data.xml 
+2026-10-22 21:08:38,912 20856 INFO None odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2026-10-22 21:08:38,924 20856 INFO None odoo.modules.loading: loading base/security/base_groups.xml 
+2026-10-22 21:08:39,376 20856 INFO None odoo.modules.loading: loading base/security/base_security.xml 
+2026-10-22 21:08:39,532 20856 INFO None odoo.modules.loading: loading base/wizard/wizard_ir_model_menu_create_views.xml 
+2026-10-22 21:08:39,551 20856 INFO None odoo.modules.loading: loading base/views/base_menus.xml 
+2026-10-22 21:08:39,900 20856 INFO None odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2026-10-22 21:08:39,945 20856 INFO None odoo.modules.loading: loading base/views/res_config_views.xml 
+2026-10-22 21:08:39,963 20856 INFO None odoo.modules.loading: loading base/data/res.country.state.csv 
+2026-10-22 21:08:40,285 20856 INFO None odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2026-10-22 21:08:40,410 20856 INFO None odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2026-10-22 21:08:40,426 20856 INFO None odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2026-10-22 21:08:40,441 20856 INFO None odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2026-10-22 21:08:40,468 20856 INFO None odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2026-10-22 21:08:40,483 20856 INFO None odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2026-10-22 21:08:40,515 20856 INFO None odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2026-10-22 21:08:40,534 20856 INFO None odoo.modules.loading: loading base/views/ir_model_views.xml 
+2026-10-22 21:08:40,658 20856 INFO None odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2026-10-22 21:08:40,677 20856 INFO None odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2026-10-22 21:08:40,695 20856 INFO None odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2026-10-22 21:08:40,715 20856 INFO None odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2026-10-22 21:08:40,795 20856 INFO None odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2026-10-22 21:08:40,840 20856 INFO None odoo.modules.loading: loading base/views/ir_default_views.xml 
+2026-10-22 21:08:40,856 20856 INFO None odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2026-10-22 21:08:40,859 20856 INFO None odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2026-10-22 21:08:40,872 20856 INFO None odoo.modules.loading: loading base/report/ir_model_report.xml 
+2026-10-22 21:08:40,876 20856 INFO None odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2026-10-22 21:08:40,883 20856 INFO None odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2026-10-22 21:08:40,902 20856 INFO None odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2026-10-22 21:08:40,915 20856 INFO None odoo.modules.loading: loading base/views/ir_module_views.xml 
+2026-10-22 21:08:40,998 20856 INFO None odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2026-10-22 21:08:41,031 20856 INFO None odoo.modules.loading: loading base/data/ir_module_module.xml 
+2026-10-22 21:08:41,092 20856 INFO None odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2026-10-22 21:08:41,096 20856 INFO None odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2026-10-22 21:08:41,101 20856 INFO None odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2026-10-22 21:08:41,112 20856 INFO None odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2026-10-22 21:08:41,128 20856 INFO None odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2026-10-22 21:08:41,138 20856 INFO None odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2026-10-22 21:08:41,153 20856 INFO None odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2026-10-22 21:08:41,162 20856 INFO None odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2026-10-22 21:08:41,172 20856 INFO None odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2026-10-22 21:08:41,185 20856 INFO None odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2026-10-22 21:08:41,198 20856 INFO None odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2026-10-22 21:08:41,217 20856 INFO None odoo.modules.loading: loading base/views/res_company_views.xml 
+2026-10-22 21:08:41,235 20856 INFO None odoo.modules.loading: loading base/views/res_lang_views.xml 
+2026-10-22 21:08:41,252 20856 INFO None odoo.modules.loading: loading base/views/res_partner_views.xml 
+2026-10-22 21:08:41,325 20856 INFO None odoo.modules.loading: loading base/views/res_bank_views.xml 
+2026-10-22 21:08:41,354 20856 INFO None odoo.modules.loading: loading base/views/res_country_views.xml 
+2026-10-22 21:08:41,389 20856 INFO None odoo.modules.loading: loading base/views/res_currency_views.xml 
+2026-10-22 21:08:41,423 20856 INFO None odoo.modules.loading: loading base/views/res_groups_views.xml 
+2026-10-22 21:08:41,461 20856 INFO None odoo.modules.loading: loading base/views/res_users_views.xml 
+2026-10-22 21:08:41,560 20856 INFO None odoo.modules.loading: loading base/views/res_users_apikeys_views.xml 
+2026-10-22 21:08:41,567 20856 INFO None odoo.modules.loading: loading base/views/res_device_views.xml 
+2026-10-22 21:08:41,590 20856 INFO None odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2026-10-22 21:08:41,600 20856 INFO None odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2026-10-22 21:08:41,609 20856 INFO None odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2026-10-22 21:08:41,635 20856 INFO None odoo.modules.loading: loading base/security/ir.model.access.csv 
+2026-10-22 21:08:41,799 20856 INFO None odoo.modules.loading: Module base loaded in 17.09s, 8454 queries (+8455 other) 
+2026-10-22 21:08:41,799 20856 INFO None odoo.modules.loading: 1 modules loaded in 17.09s, 8454 queries (+8455 extra) 
+2026-10-22 21:08:41,813 20856 INFO None odoo.modules.loading: updating modules list 
+2026-10-22 21:08:41,815 20856 INFO None odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-22 21:08:42,770 20856 INFO None odoo.modules.loading: loading 14 modules... 
+2026-10-22 21:08:42,770 20856 INFO None odoo.modules.loading: Loading module rpc (2/14) 
+2026-10-22 21:08:42,787 20856 INFO None odoo.modules.loading: Module rpc loaded in 0.02s, 9 queries (+9 other) 
+2026-10-22 21:08:42,787 20856 INFO None odoo.modules.loading: Loading module web (3/14) 
+2026-10-22 21:08:42,815 20856 INFO None odoo.registry: module web: creating or updating database tables 
+2026-10-22 21:08:43,408 20856 INFO None odoo.modules.loading: loading web/security/ir.model.access.csv 
+2026-10-22 21:08:43,415 20856 INFO None odoo.modules.loading: loading web/security/web_security.xml 
+2026-10-22 21:08:43,451 20856 INFO None odoo.modules.loading: loading web/views/webclient_templates.xml 
+2026-10-22 21:08:43,570 20856 INFO None odoo.modules.loading: loading web/views/report_templates.xml 
+2026-10-22 21:08:43,681 20856 INFO None odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2026-10-22 21:08:43,696 20856 INFO None odoo.modules.loading: loading web/views/partner_view.xml 
+2026-10-22 21:08:43,703 20856 INFO None odoo.modules.loading: loading web/views/speedscope_template.xml 
+2026-10-22 21:08:43,708 20856 INFO None odoo.modules.loading: loading web/views/memory_template.xml 
+2026-10-22 21:08:43,713 20856 INFO None odoo.modules.loading: loading web/views/speedscope_config_wizard.xml 
+2026-10-22 21:08:43,719 20856 INFO None odoo.modules.loading: loading web/views/neutralize_views.xml 
+2026-10-22 21:08:43,727 20856 INFO None odoo.modules.loading: loading web/views/ir_ui_view_views.xml 
+2026-10-22 21:08:43,741 20856 INFO None odoo.modules.loading: loading web/data/ir_attachment.xml 
+2026-10-22 21:08:43,745 20856 INFO None odoo.modules.loading: loading web/data/report_layout.xml 
+2026-10-22 21:08:43,896 20856 INFO None odoo.modules.loading: Module web loaded in 1.11s, 1232 queries (+1232 other) 
+2026-10-22 21:08:43,896 20856 INFO None odoo.modules.loading: Loading module api_doc (4/14) 
+2026-10-22 21:08:43,931 20856 INFO None odoo.registry: module api_doc: creating or updating database tables 
+2026-10-22 21:08:43,945 20856 INFO None odoo.modules.loading: loading api_doc/security/res_groups.xml 
+2026-10-22 21:08:43,969 20856 INFO None odoo.modules.loading: loading api_doc/views/docclient.xml 
+2026-10-22 21:08:43,986 20856 INFO None odoo.modules.loading: Module api_doc loaded in 0.09s, 63 queries (+63 other) 
+2026-10-22 21:08:43,986 20856 INFO None odoo.modules.loading: Loading module auth_totp (5/14) 
+2026-10-22 21:08:44,142 20856 INFO None odoo.registry: module auth_totp: creating or updating database tables 
+2026-10-22 21:08:44,534 20856 INFO None odoo.modules.loading: loading auth_totp/security/security.xml 
+2026-10-22 21:08:44,554 20856 INFO None odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2026-10-22 21:08:44,561 20856 INFO None odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2026-10-22 21:08:44,571 20856 INFO None odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2026-10-22 21:08:44,604 20856 INFO None odoo.modules.loading: loading auth_totp/views/templates.xml 
+2026-10-22 21:08:44,609 20856 INFO None odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2026-10-22 21:08:44,627 20856 INFO None odoo.modules.loading: Module auth_totp loaded in 0.64s, 218 queries (+218 other) 
+2026-10-22 21:08:44,627 20856 INFO None odoo.modules.loading: Loading module base_import (6/14) 
+2026-10-22 21:08:44,672 20856 INFO None odoo.registry: module base_import: creating or updating database tables 
+2026-10-22 21:08:45,274 20856 INFO None odoo.modules.loading: loading base_import/security/base_import_security.xml 
+2026-10-22 21:08:45,285 20856 INFO None odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2026-10-22 21:08:45,313 20856 INFO None odoo.modules.loading: Module base_import loaded in 0.69s, 964 queries (+964 other) 
+2026-10-22 21:08:45,313 20856 INFO None odoo.modules.loading: Loading module base_import_module (7/14) 
+2026-10-22 21:08:45,380 20856 INFO None odoo.registry: module base_import_module: creating or updating database tables 
+2026-10-22 21:08:45,511 20856 INFO None odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2026-10-22 21:08:45,518 20856 INFO None odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2026-10-22 21:08:45,548 20856 INFO None odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2026-10-22 21:08:45,590 20856 INFO None odoo.modules.loading: Module base_import_module loaded in 0.28s, 172 queries (+172 other) 
+2026-10-22 21:08:45,590 20856 INFO None odoo.modules.loading: Loading module base_setup (8/14) 
+2026-10-22 21:08:45,609 20856 INFO None odoo.registry: module base_setup: creating or updating database tables 
+2026-10-22 21:08:45,651 20856 INFO None odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2026-10-22 21:08:45,655 20856 INFO None odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2026-10-22 21:08:45,687 20856 INFO None odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2026-10-22 21:08:45,708 20856 INFO None odoo.modules.loading: Module base_setup loaded in 0.12s, 152 queries (+152 other) 
+2026-10-22 21:08:45,708 20856 INFO None odoo.modules.loading: Loading module bus (9/14) 
+2026-10-22 21:08:45,755 20856 INFO None odoo.registry: module bus: creating or updating database tables 
+2026-10-22 21:08:45,953 20856 INFO None odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2026-10-22 21:08:45,963 20856 INFO None odoo.modules.loading: Module bus loaded in 0.25s, 159 queries (+159 other) 
+2026-10-22 21:08:45,963 20856 INFO None odoo.modules.loading: Loading module web_tour (10/14) 
+2026-10-22 21:08:45,975 20856 INFO None odoo.registry: module web_tour: creating or updating database tables 
+2026-10-22 21:08:45,979 20856 INFO None odoo.models: Prepare computation of res.users.tour_enabled 
+2026-10-22 21:08:46,529 20856 INFO None odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2026-10-22 21:08:46,536 20856 INFO None odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2026-10-22 21:08:46,571 20856 INFO None odoo.modules.loading: Module web_tour loaded in 0.61s, 180 queries (+180 other) 
+2026-10-22 21:08:46,571 20856 INFO None odoo.modules.loading: Loading module auth_passkey (11/14) 
+2026-10-22 21:08:46,918 20856 INFO None odoo.registry: module auth_passkey: creating or updating database tables 
+2026-10-22 21:08:47,118 20856 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_key_views.xml 
+2026-10-22 21:08:47,147 20856 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_login_templates.xml 
+2026-10-22 21:08:47,157 20856 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_identitycheck_views.xml 
+2026-10-22 21:08:47,167 20856 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_views.xml 
+2026-10-22 21:08:47,183 20856 INFO None odoo.modules.loading: loading auth_passkey/security/ir.model.access.csv 
+2026-10-22 21:08:47,190 20856 INFO None odoo.modules.loading: loading auth_passkey/security/security.xml 
+2026-10-22 21:08:47,213 20856 INFO None odoo.modules.loading: Module auth_passkey loaded in 0.64s, 218 queries (+218 other) 
+2026-10-22 21:08:47,213 20856 INFO None odoo.modules.loading: Loading module html_editor (12/14) 
+2026-10-22 21:08:48,701 20856 INFO None odoo.registry: module html_editor: creating or updating database tables 
+2026-10-22 21:08:49,202 20856 INFO None odoo.modules.loading: loading html_editor/security/ir.model.access.csv 
+2026-10-22 21:08:49,216 20856 INFO None odoo.modules.loading: Module html_editor loaded in 2.00s, 1034 queries (+1034 other) 
+2026-10-22 21:08:49,216 20856 INFO None odoo.modules.loading: Loading module iap (13/14) 
+2026-10-22 21:08:49,220 20856 INFO None odoo.registry: module iap: creating or updating database tables 
+2026-10-22 21:08:49,523 20856 INFO None odoo.modules.loading: loading iap/data/services.xml 
+2026-10-22 21:08:49,526 20856 INFO None odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2026-10-22 21:08:49,533 20856 INFO None odoo.modules.loading: loading iap/security/ir_rule.xml 
+2026-10-22 21:08:49,540 20856 INFO None odoo.modules.loading: loading iap/views/iap_views.xml 
+2026-10-22 21:08:49,568 20856 INFO None odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2026-10-22 21:08:49,588 20856 INFO None odoo.modules.loading: Module iap loaded in 0.37s, 185 queries (+185 other) 
+2026-10-22 21:08:49,588 20856 INFO None odoo.modules.loading: Loading module web_unsplash (14/14) 
+2026-10-22 21:08:49,613 20856 INFO None odoo.registry: module web_unsplash: creating or updating database tables 
+2026-10-22 21:08:49,649 20856 INFO None odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2026-10-22 21:08:49,675 20856 INFO None odoo.modules.loading: Module web_unsplash loaded in 0.09s, 91 queries (+91 other) 
+2026-10-22 21:08:49,675 20856 INFO None odoo.modules.loading: 14 modules loaded in 6.91s, 4677 queries (+4677 extra) 
+2026-10-22 21:08:49,871 20856 INFO None odoo.modules.loading: Modules loaded. 
+2026-10-22 21:08:49,875 20856 INFO None odoo.registry: Registry changed, signaling through the database 
+2026-10-22 21:08:49,876 20856 INFO None odoo.registry: Registry loaded in 28.845s 
+2026-10-22 21:08:49,984 20856 INFO Darkness odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-22 21:08:50,007 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:50] "GET /web/service-worker.js HTTP/1.1" 200 - 8 0.010 21.214
+2026-10-22 21:08:50,985 20856 INFO None odoo.addons.base.models.res_users: Login successful for login:tymchuk.andrii.iv@chnu.edu.ua from 127.0.0.1 
+2026-10-22 21:08:51,011 20856 INFO None werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:51] "POST /web/database/create HTTP/1.1" 303 - 20047 19.105 13.305
+2026-10-22 21:08:51,061 20856 INFO Darkness odoo.addons.base.models.res_device: User 2 inserts device log (L4vCJkzV6SOMIzyxRA9DciOEc1Lx4jAwFRqVbJuI5T) 
+2026-10-22 21:08:51,340 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:51] "GET /odoo HTTP/1.1" 200 - 54 0.018 0.295
+2026-10-22 21:08:51,604 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:51] "GET /web/webclient/load_menus HTTP/1.1" 200 - 12 0.006 0.020
+2026-10-22 21:08:51,891 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:51] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.004
+2026-10-22 21:08:51,954 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:51] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 2 0.002 0.003
+2026-10-22 21:08:52,040 20856 INFO Darkness odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/fcac1a5/bus.websocket_worker_assets.min.js (id:14) 
+2026-10-22 21:08:52,137 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "GET /web/image/res.partner/3/avatar_128?unique=1792692529000 HTTP/1.1" 200 - 14 0.020 0.117
+2026-10-22 21:08:52,137 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 11 0.008 0.167
+2026-10-22 21:08:52,137 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.014 0.121
+2026-10-22 21:08:52,176 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "POST /web/action/load HTTP/1.1" 200 - 10 0.019 0.153
+2026-10-22 21:08:52,230 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.003 0.004
+2026-10-22 21:08:52,276 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.029 0.033
+2026-10-22 21:08:52,292 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.005
+2026-10-22 21:08:52,314 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.014 0.013
+2026-10-22 21:08:52,327 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-22 21:08:52,547 20856 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-22 21:08:52,806 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.006 0.510
+2026-10-22 21:08:52,901 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:52] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.004
+2026-10-22 21:08:54,873 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:08:54] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2026-10-22 21:09:05,934 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:05] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.006
+2026-10-22 21:09:05,967 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:05] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 9 0.006 0.009
+2026-10-22 21:09:05,990 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:05] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 28 0.005 0.008
+2026-10-22 21:09:06,025 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:06] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.000
+2026-10-22 21:09:07,313 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:07] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.002
+2026-10-22 21:09:07,857 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:07] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-10-22 21:09:11,944 13288 INFO Darkness odoo.modules.loading: loading 1 modules... 
+2026-10-22 21:09:11,948 13288 INFO Darkness odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-22 21:09:11,952 13288 INFO Darkness odoo.modules.loading: loading 14 modules... 
+2026-10-22 21:09:12,253 13288 INFO Darkness odoo.modules.loading: 14 modules loaded in 0.30s, 0 queries (+0 extra) 
+2026-10-22 21:09:12,288 13288 INFO Darkness odoo.modules.loading: Modules loaded. 
+2026-10-22 21:09:12,300 13288 INFO Darkness odoo.registry: Registry loaded in 0.415s 
+2026-10-22 21:09:12,302 13288 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-10-22 21:09:12,408 13288 INFO Darkness odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-10-22 21:09:12,430 13288 INFO Darkness odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-10-22 21:09:12,435 13288 INFO Darkness odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-10-22 21:09:12,456 13288 INFO Darkness odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-22 21:09:12,461 13288 INFO Darkness odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-22 21:09:12,488 13288 INFO Darkness odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-10-22 21:09:12,497 13288 INFO Darkness odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-10-22 21:09:12,499 13288 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.19s) 
+2026-10-22 21:09:12,506 13288 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2026-10-22 21:09:12,514 13288 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.00s) 
+2026-10-22 21:09:13,561 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:13] "POST /web/dataset/call_kw/res.config.settings/web_save#res.config.settings.web_save HTTP/1.1" 200 - 18 0.008 0.005
+2026-10-22 21:09:13,583 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:13] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.007
+2026-10-22 21:09:13,611 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:13] "POST /web/dataset/call_kw/base.language.install/get_views#base.language.install.get_views HTTP/1.1" 200 - 10 0.006 0.005
+2026-10-22 21:09:13,642 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:13] "POST /web/dataset/call_kw/base.language.install/onchange#base.language.install.onchange HTTP/1.1" 200 - 2 0.002 0.012
+2026-10-22 21:09:16,094 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:16] "POST /web/dataset/call_kw/res.lang/web_name_search#res.lang.web_name_search HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-22 21:09:18,263 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:18] "POST /web/dataset/call_kw/res.lang/get_views#res.lang.get_views HTTP/1.1" 200 - 15 0.005 0.010
+2026-10-22 21:09:18,275 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:18] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-22 21:09:35,524 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:35] "POST /web/dataset/call_kw/res.lang/web_read#res.lang.web_read HTTP/1.1" 200 - 2 0.002 0.004
+2026-10-22 21:09:36,785 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:36] "POST /web/dataset/call_kw/base.language.install/web_save#base.language.install.web_save HTTP/1.1" 200 - 7 0.005 0.003
+2026-10-22 21:09:36,804 20856 INFO Darkness odoo.addons.base.models.ir_module: module base: loading translation file d:\dz\erm crm\server\odoo\addons\base\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:36,815 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:36] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.011
+2026-10-22 21:09:37,255 20856 INFO Darkness odoo.addons.base.models.ir_module: module web: loading translation file d:\dz\erm crm\server\odoo\addons\web\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,445 20856 INFO Darkness odoo.addons.base.models.ir_module: module base_setup: loading translation file d:\dz\erm crm\server\odoo\addons\base_setup\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,473 20856 INFO Darkness odoo.addons.base.models.ir_module: module auth_passkey: loading translation file d:\dz\erm crm\server\odoo\addons\auth_passkey\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,494 20856 INFO Darkness odoo.addons.base.models.ir_module: module auth_totp: loading translation file d:\dz\erm crm\server\odoo\addons\auth_totp\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,521 20856 INFO Darkness odoo.addons.base.models.ir_module: module base_import: loading translation file d:\dz\erm crm\server\odoo\addons\base_import\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,562 20856 INFO Darkness odoo.addons.base.models.ir_module: module base_import_module: loading translation file d:\dz\erm crm\server\odoo\addons\base_import_module\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,573 20856 INFO Darkness odoo.addons.base.models.ir_module: module bus: loading translation file d:\dz\erm crm\server\odoo\addons\bus\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,610 20856 INFO Darkness odoo.addons.base.models.ir_module: module html_editor: loading translation file d:\dz\erm crm\server\odoo\addons\html_editor\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,655 20856 INFO Darkness odoo.addons.base.models.ir_module: module iap: loading translation file d:\dz\erm crm\server\odoo\addons\iap\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,679 20856 INFO Darkness odoo.addons.base.models.ir_module: module web_tour: loading translation file d:\dz\erm crm\server\odoo\addons\web_tour\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:37,708 20856 INFO Darkness odoo.addons.base.models.ir_module: module web_unsplash: loading translation file d:\dz\erm crm\server\odoo\addons\web_unsplash\i18n\uk.po for language uk_UA 
+2026-10-22 21:09:38,076 20856 INFO Darkness odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable'] 
+2026-10-22 21:09:38,077 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:38] "POST /web/dataset/call_button/base.language.install/lang_install#base.language.install.lang_install HTTP/1.1" 200 - 60 0.226 1.061
+2026-10-22 21:09:38,093 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:38] "POST /web/dataset/call_kw/base.language.install/get_views#base.language.install.get_views HTTP/1.1" 200 - 14 0.005 0.005
+2026-10-22 21:09:38,103 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:38] "POST /web/dataset/call_kw/base.language.install/web_read#base.language.install.web_read HTTP/1.1" 200 - 3 0.001 0.003
+2026-10-22 21:09:40,411 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "POST /web/dataset/call_button/base.language.install/reload#base.language.install.reload HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-22 21:09:40,459 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "GET /odoo/settings HTTP/1.1" 200 - 27 0.010 0.016
+2026-10-22 21:09:40,630 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.004 0.008
+2026-10-22 21:09:40,895 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.004
+2026-10-22 21:09:40,907 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-22 21:09:40,916 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.009
+2026-10-22 21:09:40,955 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 3 0.007 0.011
+2026-10-22 21:09:40,967 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.014 0.016
+2026-10-22 21:09:40,973 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:40] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.005
+2026-10-22 21:09:41,008 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:41] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 29 0.014 0.015
+2026-10-22 21:09:41,055 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:41] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-22 21:09:41,067 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:41] "POST /base_setup/data HTTP/1.1" 200 - 6 0.003 0.001
+2026-10-22 21:09:42,753 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:42] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.002
+2026-10-22 21:09:43,539 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:43] "POST /web/dataset/call_kw/res.config.settings/web_save#res.config.settings.web_save HTTP/1.1" 200 - 18 0.005 0.007
+2026-10-22 21:09:43,555 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:43] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.005
+2026-10-22 21:09:43,574 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:43] "POST /web/dataset/call_kw/base.language.install/get_views#base.language.install.get_views HTTP/1.1" 200 - 1 0.001 0.002
+2026-10-22 21:09:43,585 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:43] "POST /web/dataset/call_kw/base.language.install/onchange#base.language.install.onchange HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-22 21:09:45,053 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:45] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.003 0.009
+2026-10-22 21:09:51,498 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "GET /odoo/settings HTTP/1.1" 200 - 9 0.003 0.007
+2026-10-22 21:09:51,658 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-22 21:09:51,901 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.003 0.004
+2026-10-22 21:09:51,918 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.000 0.004
+2026-10-22 21:09:51,947 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.004 0.010
+2026-10-22 21:09:51,950 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 1 0.003 0.010
+2026-10-22 21:09:51,965 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.005 0.004
+2026-10-22 21:09:51,974 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:51] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.004
+2026-10-22 21:09:52,004 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:52] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.004
+2026-10-22 21:09:52,011 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:52] "POST /base_setup/data HTTP/1.1" 200 - 5 0.003 0.001
+2026-10-22 21:09:53,674 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:09:53] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.004
+2026-10-22 21:10:02,951 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:02] "POST /web/dataset/call_kw/res.config.settings/web_save#res.config.settings.web_save HTTP/1.1" 200 - 10 0.003 0.010
+2026-10-22 21:10:02,967 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:02] "POST /web/dataset/call_button/res.config.settings/execute#res.config.settings.execute HTTP/1.1" 200 - 3 0.000 0.008
+2026-10-22 21:10:03,005 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "GET /odoo/settings HTTP/1.1" 200 - 9 0.004 0.009
+2026-10-22 21:10:03,152 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-22 21:10:03,377 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.001 0.006
+2026-10-22 21:10:03,390 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.000 0.004
+2026-10-22 21:10:03,415 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.003 0.009
+2026-10-22 21:10:03,419 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 1 0.002 0.007
+2026-10-22 21:10:03,435 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.002 0.006
+2026-10-22 21:10:03,444 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.003
+2026-10-22 21:10:03,473 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-22 21:10:03,481 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:03] "POST /base_setup/data HTTP/1.1" 200 - 5 0.002 0.001
+2026-10-22 21:10:05,211 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:05] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.003
+2026-10-22 21:10:06,355 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:06] "POST /web/dataset/call_kw/res.config.settings/web_save#res.config.settings.web_save HTTP/1.1" 200 - 10 0.006 0.005
+2026-10-22 21:10:06,372 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:06] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.006
+2026-10-22 21:10:06,391 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:06] "POST /web/dataset/call_kw/base.language.install/get_views#base.language.install.get_views HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-22 21:10:06,399 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:06] "POST /web/dataset/call_kw/base.language.install/onchange#base.language.install.onchange HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-22 21:10:08,724 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:08] "POST /web/dataset/call_kw/res.lang/web_name_search#res.lang.web_name_search HTTP/1.1" 200 - 2 0.001 0.004
+2026-10-22 21:10:10,295 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:10] "POST /web/dataset/call_kw/res.lang/get_views#res.lang.get_views HTTP/1.1" 200 - 10 0.005 0.005
+2026-10-22 21:10:10,307 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:10] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.000 0.004
+2026-10-22 21:10:12,597 13288 INFO Darkness odoo.registry: Invalidating caches after database signaling: ['default', 'stable', 'templates.cached_values'] 
+2026-10-22 21:10:12,597 13288 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-10-22 21:10:12,665 13288 INFO Darkness odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-10-22 21:10:12,673 13288 INFO Darkness odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-22 21:10:12,678 13288 INFO Darkness odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-10-22 21:10:12,682 13288 INFO Darkness odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-22 21:10:12,688 13288 INFO Darkness odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-10-22 21:10:12,698 13288 INFO Darkness odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-10-22 21:10:12,699 13288 INFO Darkness odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-10-22 21:10:12,715 13288 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.12s) 
+2026-10-22 21:10:19,465 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:19] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.003 0.008
+2026-10-22 21:10:27,158 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:27] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.006
+2026-10-22 21:10:27,203 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:27] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.002 0.028
+2026-10-22 21:10:31,155 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:31] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.002 0.007
+2026-10-22 21:10:32,967 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:32] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.006
+2026-10-22 21:10:33,001 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:33] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 18 0.004 0.013
+2026-10-22 21:10:33,011 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-22 21:10:33,027 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:33] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.003
+2026-10-22 21:10:33,037 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 42 0.015 0.014
+2026-10-22 21:10:33,043 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:33] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.003 0.030
+2026-10-22 21:10:33,081 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:33] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-22 21:10:38,623 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:38] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.002 0.007
+2026-10-22 21:10:48,593 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:48] "GET /odoo/settings?debug=1 HTTP/1.1" 200 - 9 0.003 0.010
+2026-10-22 21:10:48,771 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:48] "GET /web/webclient/load_menus HTTP/1.1" 200 - 9 0.003 0.015
+2026-10-22 21:10:48,999 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:48] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.003 0.004
+2026-10-22 21:10:49,012 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:49] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.004
+2026-10-22 21:10:49,045 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:49] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.003 0.008
+2026-10-22 21:10:49,050 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:49] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 1 0.001 0.009
+2026-10-22 21:10:49,094 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:49] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.017
+2026-10-22 21:10:49,097 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:49] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.011 0.009
+2026-10-22 21:10:49,165 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:49] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-22 21:10:49,175 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:49] "POST /base_setup/data HTTP/1.1" 200 - 5 0.001 0.002
+2026-10-22 21:10:50,992 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:50] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2026-10-22 21:10:52,644 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:52] "POST /web/dataset/call_kw/res.config.settings/web_save#res.config.settings.web_save HTTP/1.1" 200 - 10 0.003 0.008
+2026-10-22 21:10:52,661 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:52] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.005
+2026-10-22 21:10:52,695 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:52] "POST /web/dataset/call_kw/res.lang/get_views#res.lang.get_views HTTP/1.1" 200 - 11 0.007 0.007
+2026-10-22 21:10:52,708 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:52] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-22 21:10:58,231 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:58] "POST /web/dataset/call_button/res.lang/action_activate_langs#res.lang.action_activate_langs HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-22 21:10:58,257 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:10:58] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.000 0.005
+2026-10-22 21:11:05,808 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:05] "GET /odoo/settings/5/action-54?debug=1 HTTP/1.1" 200 - 9 0.001 0.009
+2026-10-22 21:11:05,971 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:05] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.002
+2026-10-22 21:11:06,225 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:06] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.000 0.006
+2026-10-22 21:11:06,241 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:06] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.002 0.002
+2026-10-22 21:11:06,275 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:06] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.006 0.010
+2026-10-22 21:11:06,310 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:06] "POST /web/action/load_breadcrumbs HTTP/1.1" 200 - 15 0.040 0.012
+2026-10-22 21:11:06,315 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:06] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.002 0.004
+2026-10-22 21:11:06,333 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:06] "POST /web/dataset/call_kw/res.lang/get_views#res.lang.get_views HTTP/1.1" 200 - 2 0.003 0.009
+2026-10-22 21:11:06,341 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:06] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.001 0.005
+2026-10-22 21:11:08,195 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:08] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-22 21:11:13,923 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:13] "POST /web/dataset/call_kw/res.lang/web_read#res.lang.web_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-10-22 21:11:14,010 20856 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:14] "GET /web/static/img/placeholder.png HTTP/1.1" 200 - 0 0.000 0.012
+2026-10-22 21:11:15,795 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:15] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.002 0.002
+2026-10-22 21:11:17,088 20856 WARNING Darkness odoo.http: Cannot deactivate a language that is currently used by users. 
+2026-10-22 21:11:17,088 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:17] "POST /web/dataset/call_button/res.lang/action_archive#res.lang.action_archive HTTP/1.1" 200 - 11 0.005 0.033
+2026-10-22 21:11:29,669 20856 WARNING Darkness odoo.http: Cannot deactivate a language that is currently used by users. 
+2026-10-22 21:11:29,669 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:29] "POST /web/dataset/call_button/res.lang/action_archive#res.lang.action_archive HTTP/1.1" 200 - 4 0.003 0.005
+2026-10-22 21:11:33,891 20856 WARNING Darkness odoo.http: Base Language 'en_US' can not be deleted. 
+2026-10-22 21:11:33,892 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:33] "POST /web/dataset/call_kw/res.lang/unlink#res.lang.unlink HTTP/1.1" 200 - 7 0.004 0.006
+2026-10-22 21:11:40,146 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:40] "POST /web/dataset/call_button/res.lang/action_activate_langs#res.lang.action_activate_langs HTTP/1.1" 200 - 6 0.003 0.003
+2026-10-22 21:11:40,170 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:40] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 5 0.000 0.006
+2026-10-22 21:11:51,185 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "GET /odoo/settings/5/action-54?debug=1 HTTP/1.1" 200 - 27 0.008 0.015
+2026-10-22 21:11:51,351 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "GET /web/webclient/load_menus HTTP/1.1" 200 - 10 0.004 0.009
+2026-10-22 21:11:51,586 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.005
+2026-10-22 21:11:51,599 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "GET /web/webclient/translations?hash=a1335de9e3ec0b12a07cbe1f9fdd494f12aa90a0&lang=en_US HTTP/1.1" 200 - 2 0.000 0.004
+2026-10-22 21:11:51,603 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.002 0.003
+2026-10-22 21:11:51,641 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "POST /web/action/load_breadcrumbs HTTP/1.1" 200 - 15 0.009 0.015
+2026-10-22 21:11:51,645 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.016 0.010
+2026-10-22 21:11:51,687 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.002 0.005
+2026-10-22 21:11:51,700 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "POST /web/dataset/call_kw/res.lang/get_views#res.lang.get_views HTTP/1.1" 200 - 14 0.010 0.012
+2026-10-22 21:11:51,916 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:51] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.005
+2026-10-22 21:11:53,521 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:11:53] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-22 21:12:00,663 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:00] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.008
+2026-10-22 21:12:00,679 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:00] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 3 0.003 0.006
+2026-10-22 21:12:00,690 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:00] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 29 0.010 0.007
+2026-10-22 21:12:00,716 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:00] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-22 21:12:00,724 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:00] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.002
+2026-10-22 21:12:10,595 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:10] "POST /web/dataset/call_kw/res.config.settings/web_save#res.config.settings.web_save HTTP/1.1" 200 - 18 0.003 0.008
+2026-10-22 21:12:10,614 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:10] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.006
+2026-10-22 21:12:10,635 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:10] "POST /web/dataset/call_kw/res.lang/web_search_read#res.lang.web_search_read HTTP/1.1" 200 - 2 0.001 0.004
+2026-10-22 21:12:16,435 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:16] "POST /web/dataset/call_kw/res.lang/web_read#res.lang.web_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-10-22 21:12:22,467 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:22] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.005
+2026-10-22 21:12:22,485 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:22] "POST /web/dataset/call_kw/base.language.install/get_views#base.language.install.get_views HTTP/1.1" 200 - 3 0.004 0.002
+2026-10-22 21:12:22,494 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:22] "POST /web/dataset/call_kw/base.language.install/onchange#base.language.install.onchange HTTP/1.1" 200 - 3 0.003 0.001
+2026-10-22 21:12:23,878 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:23] "POST /web/dataset/call_kw/base.language.install/web_save#base.language.install.web_save HTTP/1.1" 200 - 7 0.003 0.004
+2026-10-22 21:12:23,897 20856 INFO Darkness odoo.addons.base.models.ir_module: module base: loading translation file d:\dz\erm crm\server\odoo\addons\base\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,261 20856 INFO Darkness odoo.addons.base.models.ir_module: module web: loading translation file d:\dz\erm crm\server\odoo\addons\web\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,391 20856 INFO Darkness odoo.addons.base.models.ir_module: module base_setup: loading translation file d:\dz\erm crm\server\odoo\addons\base_setup\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,396 20856 INFO Darkness odoo.addons.base.models.ir_module: module auth_passkey: loading translation file d:\dz\erm crm\server\odoo\addons\auth_passkey\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,400 20856 INFO Darkness odoo.addons.base.models.ir_module: module auth_totp: loading translation file d:\dz\erm crm\server\odoo\addons\auth_totp\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,405 20856 INFO Darkness odoo.addons.base.models.ir_module: module base_import: loading translation file d:\dz\erm crm\server\odoo\addons\base_import\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,412 20856 INFO Darkness odoo.addons.base.models.ir_module: module base_import_module: loading translation file d:\dz\erm crm\server\odoo\addons\base_import_module\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,417 20856 INFO Darkness odoo.addons.base.models.ir_module: module bus: loading translation file d:\dz\erm crm\server\odoo\addons\bus\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,419 20856 INFO Darkness odoo.addons.base.models.ir_module: module html_editor: loading translation file d:\dz\erm crm\server\odoo\addons\html_editor\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,434 20856 INFO Darkness odoo.addons.base.models.ir_module: module iap: loading translation file d:\dz\erm crm\server\odoo\addons\iap\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,438 20856 INFO Darkness odoo.addons.base.models.ir_module: module web_tour: loading translation file d:\dz\erm crm\server\odoo\addons\web_tour\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:24,441 20856 INFO Darkness odoo.addons.base.models.ir_module: module web_unsplash: loading translation file d:\dz\erm crm\server\odoo\addons\web_unsplash\i18n\uk.po for language uk_UA 
+2026-10-22 21:12:25,084 20856 INFO Darkness odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable'] 
+2026-10-22 21:12:25,088 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:25] "POST /web/dataset/call_button/base.language.install/lang_install#base.language.install.lang_install HTTP/1.1" 200 - 59 0.183 1.021
+2026-10-22 21:12:25,110 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:25] "POST /web/dataset/call_kw/base.language.install/get_views#base.language.install.get_views HTTP/1.1" 200 - 9 0.004 0.008
+2026-10-22 21:12:25,121 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:25] "POST /web/dataset/call_kw/base.language.install/web_read#base.language.install.web_read HTTP/1.1" 200 - 3 0.000 0.004
+2026-10-22 21:12:29,617 20856 INFO Darkness odoo.registry: Caches invalidated, signaling through the database: ['default'] 
+2026-10-22 21:12:29,618 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:29] "POST /web/dataset/call_button/base.language.install/switch_lang#base.language.install.switch_lang HTTP/1.1" 200 - 11 0.006 0.004
+2026-10-22 21:12:29,671 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:29] "GET /odoo/settings/6/action-54/89?debug=1 HTTP/1.1" 200 - 30 0.013 0.018
+2026-10-22 21:12:29,849 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:29] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.006 0.018
+2026-10-22 21:12:30,072 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.004
+2026-10-22 21:12:30,618 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.001 0.535
+2026-10-22 21:12:30,631 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.002
+2026-10-22 21:12:30,683 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "POST /web/action/load_breadcrumbs HTTP/1.1" 200 - 15 0.022 0.010
+2026-10-22 21:12:30,685 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.020 0.013
+2026-10-22 21:12:30,687 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "GET /web/image/res.partner/3/avatar_128?unique=1792692749000 HTTP/1.1" 200 - 11 0.022 0.011
+2026-10-22 21:12:30,692 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.002 0.013
+2026-10-22 21:12:30,708 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.004
+2026-10-22 21:12:30,733 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "POST /web/dataset/call_kw/res.lang/get_views#res.lang.get_views HTTP/1.1" 200 - 25 0.009 0.009
+2026-10-22 21:12:30,745 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:30] "POST /web/dataset/call_kw/res.lang/web_read#res.lang.web_read HTTP/1.1" 200 - 4 0.003 0.000
+2026-10-22 21:12:31,623 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:31] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-22 21:12:32,779 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:32] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.006
+2026-10-22 21:12:32,806 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:32] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 9 0.006 0.009
+2026-10-22 21:12:32,837 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:32] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 29 0.008 0.014
+2026-10-22 21:12:32,868 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:32] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-22 21:12:32,876 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:32] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.001
+2026-10-22 21:12:36,586 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:36] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.001 0.008
+2026-10-22 21:12:37,780 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:37] "POST /web/dataset/call_kw/res.config.settings/web_save#res.config.settings.web_save HTTP/1.1" 200 - 18 0.008 0.005
+2026-10-22 21:12:37,794 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:37] "POST /web/dataset/call_button/res.config.settings/execute#res.config.settings.execute HTTP/1.1" 200 - 3 0.002 0.005
+2026-10-22 21:12:37,855 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:37] "GET /odoo/settings?debug=1 HTTP/1.1" 200 - 19 0.009 0.028
+2026-10-22 21:12:38,018 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.006
+2026-10-22 21:12:38,250 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.002 0.005
+2026-10-22 21:12:38,271 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.005
+2026-10-22 21:12:38,312 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.006 0.011
+2026-10-22 21:12:38,318 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 1 0.003 0.013
+2026-10-22 21:12:38,368 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 8 0.005 0.038
+2026-10-22 21:12:38,380 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.010
+2026-10-22 21:12:38,430 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-22 21:12:38,441 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:38] "POST /base_setup/data HTTP/1.1" 200 - 5 0.003 0.000
+2026-10-22 21:12:40,106 20856 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:12:40] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2026-10-22 21:29:49,071 20856 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-22 21:29:49,071 20856 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-22 21:29:49,392 20856 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2026-10-22 21:29:55,839 176 INFO ? odoo: Odoo version 19.0-20261018 
+2026-10-22 21:29:55,839 176 INFO ? odoo: Using configuration file at d:\dz\erm crm\server\odoo.conf 
+2026-10-22 21:29:55,839 176 INFO ? odoo: addons paths: _NamespacePath(['D:\\DZ\\ERM CRM\\server\\odoo\\addons', 'c:\\users\\kuzo\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'd:\\dz\\erm crm\\server\\odoo\\addons', 'd:\\dz\\erm crm\\server\\custom_addons', 'd:\\dz\\erm crm\\server\\addons']) 
+2026-10-22 21:29:55,839 176 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-22 21:29:56,321 176 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-44D8AB1:8069 
+2026-10-22 21:30:02,349 13288 INFO ? odoo.registry: Invalidating caches after database signaling: ['default', 'stable', 'templates.cached_values'] 
+2026-10-22 21:30:02,350 13288 INFO Darkness odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-22 21:30:02,369 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:02] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 5 0.006 0.018
+2026-10-22 21:30:02,379 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:02] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.004
+2026-10-22 21:30:02,762 13288 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-22 21:30:02,898 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:02] "GET /odoo/settings?debug=1 HTTP/1.1" 200 - 63 0.031 0.353
+2026-10-22 21:30:03,275 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:03] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.006 0.011
+2026-10-22 21:30:03,550 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:03] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.004
+2026-10-22 21:30:03,586 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:03] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.005 0.008
+2026-10-22 21:30:03,911 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.117 0.171
+2026-10-22 21:30:03,939 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:03] "POST /web/dataset/call_kw/res.config.settings/get_views#res.config.settings.get_views HTTP/1.1" 200 - 12 0.025 0.286
+2026-10-22 21:30:04,121 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:04] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.043 0.332
+2026-10-22 21:30:04,194 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:04] "POST /web/dataset/call_kw/res.config.settings/onchange#res.config.settings.onchange HTTP/1.1" 200 - 29 0.299 0.154
+2026-10-22 21:30:04,276 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:04] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.007
+2026-10-22 21:30:04,278 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:04] "POST /base_setup/data HTTP/1.1" 200 - 6 0.004 0.003
+2026-10-22 21:30:04,295 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:04] "GET /web/webclient/translations?hash=f49e3cdf68b5825d2085f08f7012a629b2d9b9ef&lang=uk_UA HTTP/1.1" 200 - 2 0.001 0.726
+2026-10-22 21:30:05,867 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:05] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.001
+2026-10-22 21:30:12,271 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:12] "POST /web/action/load HTTP/1.1" 200 - 10 0.007 0.007
+2026-10-22 21:30:12,330 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:12] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 42 0.018 0.023
+2026-10-22 21:30:12,339 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2026-10-22 21:30:12,357 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:12] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.003 0.001
+2026-10-22 21:30:12,363 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.013 0.013
+2026-10-22 21:30:12,757 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:12] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.003 0.413
+2026-10-22 21:30:12,794 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:12] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-22 21:30:16,288 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.013 0.012
+2026-10-22 21:30:16,322 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.053
+2026-10-22 21:30:16,355 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:16] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.003
+2026-10-22 21:30:16,503 13288 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:16] "GET /pos_mollie/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-10-22 21:30:16,503 13288 INFO ? werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:16] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-10-22 21:30:21,473 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.021 0.018
+2026-10-22 21:30:21,486 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:21] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.005 0.005
+2026-10-22 21:30:21,494 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:21] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-22 21:30:26,747 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:26] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.005
+2026-10-22 21:30:26,770 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:26] "POST /web/dataset/call_kw/base.module.update/get_views#base.module.update.get_views HTTP/1.1" 200 - 11 0.003 0.007
+2026-10-22 21:30:26,789 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:26] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 2 0.002 0.003
+2026-10-22 21:30:28,003 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:28] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 5 0.003 0.005
+2026-10-22 21:30:28,012 13288 INFO Darkness odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user tymchuk.andrii.iv@chnu.edu.ua #2 via 127.0.0.1 
+2026-10-22 21:30:29,218 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:29] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1697 0.426 0.783
+2026-10-22 21:30:47,623 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 41 0.014 0.013
+2026-10-22 21:30:47,635 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.005 0.031
+2026-10-22 21:30:47,674 13288 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:30:47] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.003 0.000
+2026-10-22 21:31:20,498 13288 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-22 21:31:20,498 13288 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-22 21:31:21,065 13288 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-22 21:31:21,065 13288 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 8 connections  
+2026-10-22 21:31:21,090 13288 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-10-22 21:31:22,934 3068 INFO ? odoo: Odoo version 19.0-20261018 
+2026-10-22 21:31:22,934 3068 INFO ? odoo: Using configuration file at d:\dz\erm crm\server\odoo.conf 
+2026-10-22 21:31:22,934 3068 INFO ? odoo: addons paths: _NamespacePath(['D:\\DZ\\ERM CRM\\server\\odoo\\addons', 'D:\\DZ\\ERM CRM\\server\\odoo\\addons', 'c:\\users\\kuzo\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'd:\\dz\\erm crm\\server\\odoo\\addons', 'd:\\dz\\erm crm\\server\\custom_addons', 'd:\\dz\\erm crm\\server\\addons']) 
+2026-10-22 21:31:22,934 3068 INFO ? odoo: database: odoo@localhost:5432 
+2026-10-22 21:31:23,859 3068 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-44D8AB1:8069 
+2026-10-22 21:31:27,256 176 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-10-22 21:31:27,260 176 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-22 21:31:27,264 176 INFO ? odoo.modules.loading: loading 14 modules... 
+2026-10-22 21:31:27,952 176 INFO ? odoo.modules.loading: 14 modules loaded in 0.69s, 0 queries (+0 extra) 
+2026-10-22 21:31:27,984 176 INFO ? odoo.modules.loading: Modules loaded. 
+2026-10-22 21:31:27,994 176 INFO ? odoo.registry: Registry loaded in 0.760s 
+2026-10-22 21:31:27,996 176 INFO Darkness odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-22 21:31:28,020 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:28] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 34 0.020 0.767
+2026-10-22 21:31:28,389 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:28] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 6 0.002 0.005
+2026-10-22 21:31:28,397 176 INFO Darkness odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user tymchuk.andrii.iv@chnu.edu.ua #2 via 127.0.0.1 
+2026-10-22 21:31:29,201 176 WARNING Darkness odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-22 21:31:29,202 176 WARNING Darkness odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-22 21:31:29,670 176 INFO Darkness odoo.registry: Caches invalidated, signaling through the database: ['stable'] 
+2026-10-22 21:31:29,711 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:29] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1716 0.437 0.880
+2026-10-22 21:31:32,320 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:32] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.009 0.006
+2026-10-22 21:31:32,331 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:32] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-10-22 21:31:32,343 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:32] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 49 0.020 0.019
+2026-10-22 21:31:32,363 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:32] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.003 0.005
+2026-10-22 21:31:32,373 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:32] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-10-22 21:31:35,523 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:35] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.003
+2026-10-22 21:31:35,530 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:35] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.002 0.001
+2026-10-22 21:31:35,653 176 INFO Darkness odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Library Rental'] to user tymchuk.andrii.iv@chnu.edu.ua #2 via 127.0.0.1 
+2026-10-22 21:31:35,653 176 INFO Darkness odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-10-22 21:31:35,687 176 INFO Darkness odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Library Rental'] to user tymchuk.andrii.iv@chnu.edu.ua #2 via 127.0.0.1 
+2026-10-22 21:31:35,921 176 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-10-22 21:31:36,089 176 INFO Darkness odoo.modules.loading: loading 1 modules... 
+2026-10-22 21:31:36,093 176 INFO Darkness odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-10-22 21:31:36,116 176 INFO Darkness odoo.modules.loading: updating modules list 
+2026-10-22 21:31:36,116 176 INFO Darkness odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-10-22 21:31:36,699 176 WARNING Darkness odoo.modules.module: Missing `author` key in manifest for 'library_rental', defaulting to '' 
+2026-10-22 21:31:36,954 176 INFO Darkness odoo.modules.loading: loading 15 modules... 
+2026-10-22 21:31:36,959 176 INFO Darkness odoo.modules.loading: Loading module library_rental (15/15) 
+2026-10-22 21:31:37,090 176 INFO Darkness odoo.addons.base.models.ir_module: module library_rental: no translation for language uk_UA 
+2026-10-22 21:31:37,094 176 INFO Darkness odoo.modules.loading: Module library_rental loaded in 0.14s, 10 queries (+10 other) 
+2026-10-22 21:31:37,094 176 INFO Darkness odoo.modules.loading: 15 modules loaded in 0.14s, 10 queries (+10 extra) 
+2026-10-22 21:31:37,303 176 INFO Darkness odoo.modules.loading: Modules loaded. 
+2026-10-22 21:31:37,307 176 INFO Darkness odoo.registry: Registry changed, signaling through the database 
+2026-10-22 21:31:37,307 176 INFO Darkness odoo.registry: Registry loaded in 1.226s 
+2026-10-22 21:31:37,308 176 INFO Darkness odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-10-22 21:31:37,314 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:37] "POST /web/dataset/call_button/ir.module.module/button_immediate_install#ir.module.module.button_immediate_install HTTP/1.1" 200 - 2183 0.578 1.087
+2026-10-22 21:31:37,332 176 INFO Darkness odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-10-22 21:31:37,643 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:37] "GET /odoo HTTP/1.1" 200 - 59 0.027 0.286
+2026-10-22 21:31:37,831 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:37] "GET /web/webclient/load_menus HTTP/1.1" 200 - 11 0.004 0.010
+2026-10-22 21:31:38,048 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.001 0.005
+2026-10-22 21:31:38,655 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.002 0.571
+2026-10-22 21:31:38,668 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.002 0.003
+2026-10-22 21:31:38,749 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "POST /web/action/load HTTP/1.1" 200 - 10 0.014 0.041
+2026-10-22 21:31:38,749 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.011 0.046
+2026-10-22 21:31:38,753 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.003 0.053
+2026-10-22 21:31:38,804 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.011 0.028
+2026-10-22 21:31:38,814 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.002 0.001
+2026-10-22 21:31:38,838 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.005
+2026-10-22 21:31:38,841 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 44 0.015 0.013
+2026-10-22 21:31:38,852 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.001 0.036
+2026-10-22 21:31:38,893 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:38] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.000 0.002
+2026-10-22 21:31:39,674 176 INFO Darkness werkzeug: 127.0.0.1 - - [22/Oct/2026 21:31:39] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2026-10-22 21:32:56,562 176 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-10-22 21:32:56,629 176 INFO Darkness odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-22 21:32:56,631 176 INFO Darkness odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-10-22 21:32:56,653 176 INFO Darkness odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-10-22 21:32:56,664 176 INFO Darkness odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-10-22 21:32:56,676 176 INFO Darkness odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-10-22 21:32:56,684 176 INFO Darkness odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-10-22 21:32:56,693 176 INFO Darkness odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-10-22 21:32:56,723 176 INFO Darkness odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.17s) 
+2026-10-22 21:33:22,584 3068 INFO ? odoo.service.server: Initiating shutdown 
+2026-10-22 21:33:22,584 3068 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-10-22 21:33:22,943 3068 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-10-22 21:33:22,943 3068 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
